@@ -61,7 +61,7 @@ a.logo {
   .aa:hover{
     color: #9ab5ee;
   }
-  .aa.item.active{
+  .menu .aa.active{
     color: #9ab5ee;
 
   }

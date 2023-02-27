@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
 declare var $: any;
 
 @Component({
@@ -7,15 +8,20 @@ declare var $: any;
   styleUrls: ['./homenavbar.component.css']
 })
 export class HomenavbarComponent {
-  public ngOnInit(){
-    $(document).ready(function() {
-      $(".toggle").on("click", function() {
-          if ($(".item").hasClass("active")) {
-              $(".item").removeClass("active");
+  constructor(private router: Router) { }
+
+  ngOnInit() {
+    this.router.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        const url = event.urlAfterRedirects;
+        $(".menu .aa").each(() => {
+          if ($(this).attr("routerLink") === url) {
+            $(this).addClass("active");
           } else {
-              $(".item").addClass("active");
+            $(this).removeClass("active");
           }
-      });
-  });
+        });
+      }
+    });
   }
 }

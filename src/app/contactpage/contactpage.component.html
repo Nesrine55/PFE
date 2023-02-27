@@ -1,33 +1,30 @@
 
 
 <app-homenavbar></app-homenavbar>
-<form action="">
-    <div class="title">
-      <h2>CONTACT</h2>
-    </div>
-    <div class="half">
-      <div class="item">
-        <label for="name">NAME</label>
-        <input type="text" id = "name">
-      </div>
-      <div class="item">
-        <label for="email">EMAIL</label>
-        <input type="text" id = "email">
-      </div>
-    </div>
-    <div class="full">
-      <label for="message">MESSAGE</label>
-      <textarea name="" id = "message"></textarea>
-    </div>
-    <div class="action">
-      <input type="submit" value = "SEND MESSAGE">
-      <input type="reset" value = "RESET">
-    </div>
-    <div class="icons">
-      <a href="" class = "fa fa-twitter"></a>
-      <a href="" class = "fa fa-facebook"></a>
-      <a href="" class = "fa fa-instagram"></a>
-      <a href="" class = "fa fa-github"></a>
-    </div>
-  </form>
+<section id="contact-section">
+  <div class="container">
+     <h2>Contact Us</h2>
+     <p>Email us and keep upto date with our latest news</p>
+    <div class="contact-form">
 
+         <!-- First grid -->
+      <div>
+        <i class="fa fa-map-marker"></i><span class="form-info">  Mahdia</span><br>
+        <i class="fa fa-phone" > </i><span class="form-info">  +123 456789</span><br>
+        <i class="fa fa-envelope"></i><span class="form-info">  nesrinezarrouk83@Gmail.com</span>
+      </div>
+      
+          <!-- second grid -->
+  <div>        
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="text" placeholder="Last Name"><br>
+      <input type="Email" placeholder="Email" required><br>
+      <input type="text" placeholder="Subject of this message"><br>
+      <textarea name="message" placeholder="Message" rows="5" required></textarea><br>
+      <button class="submit" >Send Message</button> 
+    </form>   
+      </div>
+    </div>
+  </div>
+</section>
