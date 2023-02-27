@@ -1,16 +1,41 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+/*import { BrowserAnimationsModule } from '@angular/platform-browser/animations';*/
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { InbordingComponent } from './inbording/inbording.component';
+import { NavComponent } from './nav/nav.component';
+import { HomenavbarComponent } from './homenavbar/homenavbar.component';
+import { SignupComponent } from './signup/signup.component';
+import { SiginComponent } from './sigin/sigin.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { HelppageComponent } from './helppage/helppage.component';
+import { AboutpageComponent } from './aboutpage/aboutpage.component';
+import { DiscoverpageComponent } from './discoverpage/discoverpage.component';
+import { ContactpageComponent } from './contactpage/contactpage.component';
+import { MailvalidateComponent } from './mailvalidate/mailvalidate.component';
+
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavComponent,
+    InbordingComponent,
+    HomenavbarComponent,
+    SignupComponent,
+    SiginComponent,
+    HomepageComponent,
+    HelppageComponent,
+    AboutpageComponent,
+    DiscoverpageComponent,
+    ContactpageComponent,
+    MailvalidateComponent,
   ],
   imports: [
+    AppRoutingModule,
+   /* BrowserAnimationsModule,*/
     BrowserModule,
-    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
