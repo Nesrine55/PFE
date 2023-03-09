@@ -14,6 +14,7 @@ import { AboutpageComponent } from './aboutpage/aboutpage.component';
 import { DiscoverpageComponent } from './discoverpage/discoverpage.component';
 import { ContactpageComponent } from './contactpage/contactpage.component';
 import { MailvalidateComponent } from './mailvalidate/mailvalidate.component';
+import { StudentsettingsComponent } from './studentsettings/studentsettings.component';
 
 
 
@@ -31,6 +32,7 @@ import { MailvalidateComponent } from './mailvalidate/mailvalidate.component';
     DiscoverpageComponent,
     ContactpageComponent,
     MailvalidateComponent,
+    StudentsettingsComponent,
   ],
   imports: [
     AppRoutingModule,

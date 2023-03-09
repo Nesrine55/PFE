@@ -1,0 +1,390 @@
+<!--<div class="container-scroller">
+    <app-nav></app-nav>
+<div class="main-panel">
+<div class="content-wrapper">
+<div class="container rounded bg-white mt-5 mb-5">
+    <div class="row">
+        <div class="col-md-3 border-right">
+            <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"><span class="font-weight-bold">Edogaru</span><span class="text-black-50">edogaru@mail.com.my</span><span> </span></div>
+        </div>
+        <div class="col-md-5 border-right">
+            <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="text-right">Profile Settings</h4>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-6"><label class="labels">Name</label><input type="text" class="form-control" placeholder="first name" value=""></div>
+                    <div class="col-md-6"><label class="labels">Surname</label><input type="text" class="form-control" value="" placeholder="surname"></div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12"><label class="labels">Mobile Number</label><input type="text" class="form-control" placeholder="enter phone number" value=""></div>
+                    <div class="col-md-12"><label class="labels">Address Line 1</label><input type="text" class="form-control" placeholder="enter address line 1" value=""></div>
+                    <div class="col-md-12"><label class="labels">Address Line 2</label><input type="text" class="form-control" placeholder="enter address line 2" value=""></div>
+                    <div class="col-md-12"><label class="labels">Postcode</label><input type="text" class="form-control" placeholder="enter address line 2" value=""></div>
+                    <div class="col-md-12"><label class="labels">State</label><input type="text" class="form-control" placeholder="enter address line 2" value=""></div>
+                    <div class="col-md-12"><label class="labels">Area</label><input type="text" class="form-control" placeholder="enter address line 2" value=""></div>
+                    <div class="col-md-12"><label class="labels">Email ID</label><input type="text" class="form-control" placeholder="enter email id" value=""></div>
+                    <div class="col-md-12"><label class="labels">Education</label><input type="text" class="form-control" placeholder="education" value=""></div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6"><label class="labels">Country</label><input type="text" class="form-control" placeholder="country" value=""></div>
+                    <div class="col-md-6"><label class="labels">State/Region</label><input type="text" class="form-control" value="" placeholder="state"></div>
+                </div>
+                <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Save Profile</button></div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center experience"><span>Edit Experience</span><span class="border px-3 p-1 add-experience"><i class="fa fa-plus"></i>&nbsp;Experience</span></div><br>
+                <div class="col-md-12"><label class="labels">Experience in Designing</label><input type="text" class="form-control" placeholder="experience" value=""></div> <br>
+                <div class="col-md-12"><label class="labels">Additional Details</label><input type="text" class="form-control" placeholder="additional details" value=""></div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>-->
+
+<app-homenavbar></app-homenavbar>  
+<body> 
+<div class="site" id="page">
+    <main>
+        <div class="form-box">
+            <div class="top">
+                <div class="container">
+                    <ul>
+                        <li class="indicator" ><a routerLink=""><i class="ri-checkbox-blank-circle-line"></i></a>choose field</li>
+                        <li class="indicator" ><a routerLink=""><i class="ri-checkbox-blank-circle-line"></i></a>your profile</li>
+                        <li class="indicator" ><a routerLink=""><i class="ri-checkbox-blank-circle-line"></i></a>your story</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <form action="" id="student-form" name="student-form">
+                    <div class="field form-child active">
+                        <h2>Choose your fields of study</h2>
+                        <div class="wrapper">
+                            <div class="faculty">
+                                <div class="icon agricultural">
+                                <i class="ri-plant-line ri-2x"></i></div>
+                                <h3>Artificial intelligence</h3>
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="faculty[agricultural]" value="international Relation" id="1">
+                                        <label for="1">Machine learning</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="faculty[agricultural]" value="law" id="2">
+                                        <label for="2">deep learning</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="faculty[agricultural]" value="Politics" id="3">
+                                        <label for="3">robotic</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="faculty">
+                                <div class="icon art">
+                                <i class="ri-quill-pen-line ri-2x"></i></div>
+                                <h3>Busnisss</h3>
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="faculty[art]" value="international Relation" id="4">
+                                        <label for="4">gestion</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="faculty[art]" value="law" id="5">
+                                        <label for="5">marketing</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="faculty[art]" value="Politics" id="6">
+                                        <label for="6">finance</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="faculty">
+                                <div class="icon human">
+                                <i class="ri-plant-line ri-2x"></i></div>
+                                <h3>IT</h3>
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="faculty[human]" value="international Relation" id="7">
+                                        <label for="7">WEB DEVELOPPEMENT</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="faculty[human]" value="law" id="8">
+                                        <label for="8">mobile developpement</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="faculty[human]" value="Politics" id="9">
+                                        <label for="9">programmation</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="faculty">
+                                <div class="icon engineer">
+                                <i class="ri-quill-pen-line ri-2x"></i></div>
+                                <h3>domaine x</h3>
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="faculty[engineer]" value="international Relation" id="10">
+                                        <label for="10">international Relation</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="faculty[engineer]" value="law" id="11">
+                                        <label for="11">law</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="faculty[engineer]" value="Politics" id="12">
+                                        <label for="12">Politics</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="faculty">
+                                <div class="icon music">
+                                <i class="ri-quill-pen-line ri-2x"></i></div>
+                                <h3>domaine4</h3>
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="faculty[music]" value="international Relation" id="13">
+                                        <label for="13">international Relation</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="faculty[music]" value="law" id="14">
+                                        <label for="14">law</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="faculty[music]" value="Politics" id="15">
+                                        <label for="15">Politics</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="faculty">
+                                <div class="icon science">
+                                <i class="ri-quill-pen-line ri-2x"></i></div>
+                                <h3>domaine5</h3>
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="faculty[science]" value="international Relation" id="16">
+                                        <label for="16">international Relation</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="faculty[science]" value="law" id="17">
+                                        <label for="17">law</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="faculty[science]" value="Politics" id="18">
+                                        <label for="18">Politics</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <div class="highlight">
+                            <div class="head">
+                                <div class="thumbnail">
+                                    <img class="photo" src="../../assets/user.png" alt="">
+                                </div>
+                                <div class="split">
+                                    <div class="name">
+                                        <h4>
+                                            <strong class="firstname"> </strong>
+                                            <strong class="lastname"> </strong>
+                                        </h4>
+                                        <span>
+                                            <span class="mouth"> june </span>
+                                            <span class="date"> 22 </span>
+                                            <span class="year"> 2001 </span>
+                                        </span>
+                                    </div>
+                                    <div class="devider"></div>
+                                    <div class="country">
+                                        <span class="nationality">tunisia</span>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <!--head-->
+                            <div class="wrapper">
+                                <h4>Fields of study selected </h4>
+                                <div class="field-selected">
+                                    <div class="faculty">
+                                        <div class="icon"><i class="ri-quill-pen-line ri-2x"></i></div>
+                                        <h3>Art</h3>
+                                        <span>design</span>
+                                    </div>
+                                    <div class="faculty">
+                                        <div class="icon"><i class="ri-quill-pen-line ri-2x"></i></div>
+                                        <h3>Art</h3>
+                                        <span>design</span>
+                                    </div>
+                                    <div class="faculty">
+                                        <div class="icon"><i class="ri-quill-pen-line ri-2x"></i></div>
+                                        <h3>Art</h3>
+                                        <span>design</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile form-child">
+                            <h2>fill out the application form carrefully</h2>
+                            <div class="wrapper">
+                                <div class="row personal">
+                                    <div class="heading">
+                                        <div class="icon"><i class="ri-user-5-line ri-2x"></i></div>
+                                        <h3>personal information </h3>
+                                    </div>
+                                    <div class="upload split">
+                                        <p>
+                                            <label for="uploader">upload your current photo</label>
+                                            <input type="file" name="photo" id="uploader">
+                                        </p>
+                                    </div>
+                                    <div class="split">
+                                            <p>
+                                                <label>Full name</label>
+                                                <input type="text" name="fname" class="fname" placeholder="first name">
+                                            </p>
+                                            <p>
+                                                
+                                                <input type="text" name="lname" class="lname" placeholder="last name">
+                                            </p>
+                                    </div>
+                                    <div class="split birth">
+                                            <p>
+                                                <label>birth date</label>
+                                                <input type="number" name="birth_date" placeholder="date" min="1" max="31">
+                                            </p>
+                                            <p>
+                                                <input type="number" name="birth_month" placeholder="month" min="1" max="12">
+                                            </p>
+                                            <p>
+                                                <input type="number" name="birth_year" placeholder="year">
+                                            </p>
+
+                                    </div>
+                                        <p>
+                                            <label>email</label>
+                                            <input type="email" placeholder="yours@gmail.com" name="email">
+                                        </p>
+                                        <p>
+                                            <label>phone number</label>
+                                            <input type="number" placeholder="+216 12345678" name="phone-number">
+                                        </p>
+                                        <p>
+                                            <label>adress</label>
+                                            <input type="text" placeholder="street address" name="address">
+                                            <input type="text" placeholder="street address" name="address2">
+
+                                        </p>
+                                    <div class="split">
+                                            <p>
+                                                <input type="text" name="city" placeholder="city">
+                                            </p>
+                                            <p>
+                                                <input type="text" name="state" placeholder="state">
+                                            </p>
+                                            <p>
+                                                <input type="text" name="zipcode" placeholder="postal">
+                                            </p>
+                                    </div>
+                                    <p class="custom-select">
+                                    <i class="ri-arrow-down-s-line"></i>
+                                    <select name="country" id="">
+                                                <option value="" disbled selected>select your country</option>
+                                                <option value="Albania">france</option>
+                                                <option value="Albania">tunisia</option>
+                                                <option value="Albania">america</option>
+                                                <option value="Albania">italy</option>
+                                                <option value="Albania">suisse</option>
+                                                <option value="Albania">egypt</option>
+                                                <option value="Albania">brazil</option>
+
+                                    </select>
+
+                                    </p>
+                                </div>
+                                <!--personal-->
+
+                                <div class="row academic">
+                                    <div class="heading">
+                                        <div class="icon">
+                                            <i class="ri-building-2-line ri-2x"></i>
+                                        </div> 
+                                        <h3>academic background</h3>
+                                    </div>
+                                    
+                                    <div class="split">
+                                        <p>
+                                            <label>school name</label>
+                                            <input type="text" placeholder="school-city" name="city">
+                                        </p>
+                                        <p>
+                                            <label>school location</label>
+
+                                            <input type="text" placeholder="school country" name="country">
+                                        </p>
+                                    </div>
+                                    <p>
+                                        <label>GPA</label>
+                                        <input type="text" placeholder="school-gps" name="0.00">
+                                    </p>
+                                    
+                                    <div class="split">
+                                        <p>
+                                            <label>where did you attend?</label>
+                                            <input type="text" name="attend entry" placeholder="entry date" onfocus="{this.type='date'}">
+                                        </p>
+                                        <p>
+                                            <input type="text" name="attend exist" placeholder="exist date" onfocus="{this.type='date'}">
+                                        </p>
+                                    </div>
+                                    <div class="split">
+                                        <p>
+                                            <label>SAT information</label>
+                                            <input type="text" name="sat score" placeholder="SAT score (combined)" onfocus="{this.type='date'}">
+                                        </p>
+                                        <p>
+                                            <input type="text" name="sat date" placeholder="test date" onfocus="{this.type='date'}">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--profile-->
+                        <div class="story form-child ">
+                            <h2>write about your strength</h2>
+                            <div class="wrapper">
+                                <div class="row academic">
+                                    <div class="heading">
+                                        <div class="icon">
+                                            <i class="ri-character-recognition-line ri-2x"></i>
+                                        </div>
+                                        <h3>activity information</h3>
+                                    </div>
+                                    <p>
+                                        <label for="">brief your story</label>
+                                        <textarea name="story" id="" cols="30" rows="10"></textarea>
+                                    </p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <nav>
+                        <a routerLink="#0" class="prev">Back</a>
+                        <a routerLink="#0" class="next">Continue</a>
+                        <a routerLink="#0" class="submit">submit</a>
+                    </nav>
+                </form>
+            </div>
+
+        </div>
+    </main>
+</div>    
+</body> 

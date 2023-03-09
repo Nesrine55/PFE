@@ -12,6 +12,7 @@ import { MenuComponent } from './menu/menu.component';
 import { NavComponent } from './nav/nav.component';
 import { SiginComponent } from './sigin/sigin.component';
 import { SignupComponent } from './signup/signup.component';
+import { StudentsettingsComponent } from './studentsettings/studentsettings.component';
 
 const routes: Routes = [
   {path:'inbording' , component:InbordingComponent},
@@ -27,6 +28,8 @@ const routes: Routes = [
   {path:'signup' , component:SignupComponent},
 
   {path:'signin' , component:SiginComponent},
+  {path:'studentsettings' , component:StudentsettingsComponent},
+
 
 
 
