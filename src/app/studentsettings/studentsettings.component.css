@@ -49,7 +49,7 @@ input{
     border: solid 1px #BA68C8
 }*/
 
-@import url('https://fonts.googleapis.com/css?family=rubik:400,800');
+/*@import url('https://fonts.googleapis.com/css?family=rubik:400,800');*/
 
 
 
@@ -63,8 +63,15 @@ body{
 }
 
 a{
+    text-decoration: none;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+
+img{
     max-width: 100%;
     vertical-align: middle;
+
 }
 ul{
     list-style: none;
@@ -163,7 +170,7 @@ form .faculty h3{
     margin: 15px 0;
 }
 
-form .faculty .icon{
+form .faculty .icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,28 +193,35 @@ form .faculty .icon::before{
     height: 100%;
     z-index: -1;
     filter: blur(15px);
+
+}
+form .faculty .icon{
+    filter: blur(20px);
+
+
 }
 
-
-form .faculty:nth-child(1) .icon::before{
+form .faculty:nth-child(1) .icon{
     background-color: #7bcb12;
 }
 
-form .faculty:nth-child(2) .icon::before{
+
+form .faculty:nth-child(2) .icon{
     background-color: #b53471;
+
 }
 
-form .faculty:nth-child(3) .icon::before{
+form .faculty:nth-child(3) .icon{
     background-color: #9980Fa;
 }
-form .faculty:nth-child(4) .icon::before{
+form .faculty:nth-child(4) .icon{
     background-color: #ee5a24;
 }
-form .faculty:nth-child(5) .icon::before{
+form .faculty:nth-child(5) .icon{
     background-color: #a7e237;
 }
 
-form .faculty:nth-child(6) .icon::before{
+form .faculty:nth-child(6) .icon{
     background-color: #16d891;
 }
 
@@ -276,8 +290,8 @@ form nav .prev{
 form .split{
     display: flex;
     flex-wrap: wrap;
-align-items: flex-end;
-gap: 20px;
+    align-items: flex-end;
+    gap: 20px;
 }
 
 .highlight .head{
@@ -468,9 +482,9 @@ input::-webkit-inner-spin-button{
 
 /*for firefox*/
 
-/*input[type="number"]{
+input[type="number"]{
     -moz-appearance: textfield;
-}*/
+}
 
 textarea{
     height: auto;

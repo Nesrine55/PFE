@@ -108,7 +108,7 @@ if (lnameInput) {
 
 const countryInput = document.querySelector('input[name="country"]');
 if (countryInput) {
-  countryInput.addEventListener('keyup', function(this: HTMLInputElement) {
+  countryInput.addEventListener('change', function(this: HTMLInputElement) {
     const nationality = document.querySelector('.nationality');
     if (nationality) nationality.innerHTML = this.value;
   });

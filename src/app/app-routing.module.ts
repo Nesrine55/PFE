@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutpageComponent } from './aboutpage/aboutpage.component';
+import { CompanydashboardComponent } from './companydashboard/companydashboard.component';
+import { CompanynavbarComponent } from './companynavbar/companynavbar.component';
 import { ContactpageComponent } from './contactpage/contactpage.component';
 import { DiscoverpageComponent } from './discoverpage/discoverpage.component';
 import { HelppageComponent } from './helppage/helppage.component';
@@ -26,6 +28,8 @@ const routes: Routes = [
   {path:'' , component:HomepageComponent},
   {path:'mailvalidate' , component:MailvalidateComponent},
   {path:'signup' , component:SignupComponent},
+  {path:'company' , component:CompanydashboardComponent},
+  {path:'companynav' , component:CompanynavbarComponent},
 
   {path:'signin' , component:SiginComponent},
   {path:'studentsettings' , component:StudentsettingsComponent},

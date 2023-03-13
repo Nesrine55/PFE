@@ -1,0 +1,16 @@
+.container-scroller{
+    background-color: rgb(156, 186, 212);
+}
+.nav{
+    background-color: rgb(1, 1, 130);
+}
+.sidebar, .navbar, .sidebar-brand-wrapper{
+    background-color: rgb(1, 1, 130);
+
+}
+#createbuttonDropdown{
+    background-color: rgb(4, 21, 69);
+}
+.sidebar{
+    height: 100%;
+}
