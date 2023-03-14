@@ -14,6 +14,8 @@ import { MenuComponent } from './menu/menu.component';
 import { NavComponent } from './nav/nav.component';
 import { SiginComponent } from './sigin/sigin.component';
 import { SignupComponent } from './signup/signup.component';
+import { StudentnavbarComponent } from './studentnavbar/studentnavbar.component';
+import { StudentprofileComponent } from './studentprofile/studentprofile.component';
 import { StudentsettingsComponent } from './studentsettings/studentsettings.component';
 
 const routes: Routes = [
@@ -30,9 +32,11 @@ const routes: Routes = [
   {path:'signup' , component:SignupComponent},
   {path:'company' , component:CompanydashboardComponent},
   {path:'companynav' , component:CompanynavbarComponent},
-
+  {path:'studentnav' , component:StudentnavbarComponent},
   {path:'signin' , component:SiginComponent},
   {path:'studentsettings' , component:StudentsettingsComponent},
+  {path:'studentprofile' , component:StudentprofileComponent},
+
 
 
 

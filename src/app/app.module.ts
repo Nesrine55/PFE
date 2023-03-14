@@ -17,6 +17,8 @@ import { MailvalidateComponent } from './mailvalidate/mailvalidate.component';
 import { StudentsettingsComponent } from './studentsettings/studentsettings.component';
 import { CompanydashboardComponent } from './companydashboard/companydashboard.component';
 import { CompanynavbarComponent } from './companynavbar/companynavbar.component';
+import { StudentnavbarComponent } from './studentnavbar/studentnavbar.component';
+import { StudentprofileComponent } from './studentprofile/studentprofile.component';
 
 
 
@@ -37,6 +39,8 @@ import { CompanynavbarComponent } from './companynavbar/companynavbar.component'
     StudentsettingsComponent,
     CompanydashboardComponent,
     CompanynavbarComponent,
+    StudentnavbarComponent,
+    StudentprofileComponent,
   ],
   imports: [
     AppRoutingModule,
