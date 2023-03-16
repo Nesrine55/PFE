@@ -19,6 +19,7 @@ import { CompanydashboardComponent } from './companydashboard/companydashboard.c
 import { CompanynavbarComponent } from './companynavbar/companynavbar.component';
 import { StudentnavbarComponent } from './studentnavbar/studentnavbar.component';
 import { StudentprofileComponent } from './studentprofile/studentprofile.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 
@@ -41,6 +42,7 @@ import { StudentprofileComponent } from './studentprofile/studentprofile.compone
     CompanynavbarComponent,
     StudentnavbarComponent,
     StudentprofileComponent,
+    NavbarComponent,
   ],
   imports: [
     AppRoutingModule,

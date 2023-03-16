@@ -12,6 +12,7 @@ import { InbordingComponent } from './inbording/inbording.component';
 import { MailvalidateComponent } from './mailvalidate/mailvalidate.component';
 import { MenuComponent } from './menu/menu.component';
 import { NavComponent } from './nav/nav.component';
+import { NavbarComponent } from './navbar/navbar.component';
 import { SiginComponent } from './sigin/sigin.component';
 import { SignupComponent } from './signup/signup.component';
 import { StudentnavbarComponent } from './studentnavbar/studentnavbar.component';
@@ -36,10 +37,7 @@ const routes: Routes = [
   {path:'signin' , component:SiginComponent},
   {path:'studentsettings' , component:StudentsettingsComponent},
   {path:'studentprofile' , component:StudentprofileComponent},
-
-
-
-
+  {path:'navbar' , component:NavbarComponent},
 
   { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) }];
 

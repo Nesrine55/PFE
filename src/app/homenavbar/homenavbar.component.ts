@@ -1,11 +1,15 @@
 import { Component } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
+import {ViewEncapsulation} from '@angular/core';
+
 declare var $: any;
 
 @Component({
   selector: 'app-homenavbar',
   templateUrl: './homenavbar.component.html',
-  styleUrls: ['./homenavbar.component.css']
+  styleUrls: ['./homenavbar.component.css'],
+  encapsulation: ViewEncapsulation.None
+
 })
 export class HomenavbarComponent {
   constructor(private router: Router) { }
